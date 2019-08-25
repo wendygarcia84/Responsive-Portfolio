@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 790px;
   margin: 0 auto;
   clear: both;
 }
@@ -170,7 +170,7 @@ h3, h2 {
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 30%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -214,4 +214,101 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 1890px) {
+  #profile  {
+    width: 30%;
+  }
+  .main-section {
+    width: 70%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #profile  {
+    width: 30%;
+  }
+  .main-section {
+    width: 70%;
+    float: left;
+  }
+  #logo {
+    width: 30%;
+    font-size: 20px;
+    height: 65px;
+    line-height: 65px;
+    
+  }
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+    line-height: 29px;
+}
+  nav {
+    font-size: 13px;
+    margin-top: 13px;
+  }
+
+  .container {
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #profile  {
+    width: 50%;
+  }
+  
+  #logo {
+    width: 30%;
+    font-size: 20px;
+    height: 65px;
+    line-height: 65px;
+    
+  }
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+    line-height: 29px;
+}
+  nav {
+    font-size: 13px;
+    margin-top: 13px;
+  }
+
+  .container {
+    width: 82%;
+  }
+  .main-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #profile  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #logo {
+    width: 100%;
+    font-size: 20px;
+    height: 65px;
+    line-height: 65px;
+  }
+ nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.work {
+  width: 100%;
+}
 }
